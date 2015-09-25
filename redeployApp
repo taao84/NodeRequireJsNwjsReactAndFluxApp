@@ -1,0 +1,5 @@
+#!/bin/bash
+cd app
+zip -r app *
+mv app.zip ../nw/app.nw
+cd ..
