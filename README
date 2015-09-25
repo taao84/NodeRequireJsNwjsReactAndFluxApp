@@ -1,0 +1,9 @@
+This a template project meant to do the following:
+- Create a base application where NodeJs and RequireJs can be use with no problems.
+- The RequireJs modules should not be modified or prepared to work with NodeJs. This is important in order to keep the components usable when not in a Node environment.
+- Create a simple ReactJs application with modules that can be used in Web applications and NodeJs clients without having to change the code.
+- The template app has to be easily deployable in a nw.js container.
+- The template app has to be easily deployable in a modern browser with very few changes or none. (Currently only a couple of lines of code have to be removed in order to do so).
+- There has to be a clear separation between web and client features. In this project any client feature will be developed as node module, and any other feature that can be compatible with web will be developed as a requirejs module.
+- The template project uses the flux architecture. (This is done using the Fluxxor implementation)
+
